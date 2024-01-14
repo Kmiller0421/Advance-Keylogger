@@ -145,7 +145,7 @@ def show_webcam(path, webcam_info):
     except:
         print("Error: Webcam not found on computer")
 
-
+# Function: Listen to user for 15 seconds
 def capture_audio(path, microphone_info):
 
     fs = 44100  # Sample rate
